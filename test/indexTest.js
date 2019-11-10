@@ -67,7 +67,7 @@ describe( "submitData()", () => {
     let email = "sam@sam.com"
 
     await submitData( name, email )
-
+    console.log("testTestTesttest", document.body.innerHTML)
     expect( document.body.innerHTML )
       .to.include( rando )
   } );
